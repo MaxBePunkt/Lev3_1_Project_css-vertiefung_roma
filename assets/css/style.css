@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&display=swap");
 /* 
 font-family: 'Roboto', sans-serif;
 font-family: 'Tangerine', cursive;
 font-family: santio;
 */
 @font-face {
-    font-family: santio;
-    src: url('../fonts/Santio\ Bold.otf')
-    format("opentype");
+  font-family: santio;
+  src: url("../fonts/Santio\ Bold.otf") format("opentype");
 }
 /* 
 Farbe:
@@ -24,17 +23,20 @@ Farbe:
             GENERAL
 ###############################################
 */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+
 }
 body {
-    max-width: 1440px;
-    margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
-    position: relative;
-
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  position: relative;
 }
 /* 
 ###############################################
@@ -42,24 +44,24 @@ body {
 ###############################################
 */
 header {
-    text-align: right;
-    display: inline-block;
-    width: 100%;
-    position: absolute;
+  text-align: right;
+  display: inline-block;
+  width: 100%;
+  position: absolute;
 }
 header img {
-    width: 2vw;
-    display: inline-block;
-    margin: 0 2% 0 0;
+  width: 2vw;
+  display: inline-block;
+  margin: 0 2% 0 0;
 }
 header p {
-    display: inline-block;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    border-bottom: 2px solid #e7bc0e;
-    margin: 1% 10% 0 0;
-    color: #fff;
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #e7bc0e;
+  margin: 1% 10% 0 0;
+  color: #fff;
 }
 /* 
 ###############################################
@@ -67,89 +69,88 @@ header p {
 ###############################################
 */
 .parallax {
-    /* The image used */
-    background-image: url("../img/cleo-topper.jpg");
-    /* Set a specific height */
-    min-height: 100vh;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* The image used */
+  background-image: url("../img/cleo-topper.jpg");
+  /* Set a specific height */
+  min-height: 100vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 main section {
-    margin-bottom: 10%;
-    padding-bottom: 10%;
-    font-family: santio;
-
+  margin-bottom: 10%;
+  padding-bottom: 10%;
+  font-family: santio;
 }
 
 main section article {
-    padding: 20% 0 0 10%;
+  padding: 15% 0 0 10%;
 }
 h1 {
-    color: #fff;
-    font-size: 80px;
-    width: 28%;
+  color: #fff;
+  font-size: 4rem;
+  width: 28%;
 }
 a {
-    color: #e7bc0e;
-    font-family: 'Tangerine', cursive;
-    font-size: 45px;
-    letter-spacing: -3px;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    margin-top: 50px;
+  color: #e7bc0e;
+  font-family: "Tangerine", cursive;
+  font-size: 4rem;
+  letter-spacing: -0.1875rem;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 3.125rem;
 }
 span {
-    font-size: 50px;
-    font-weight: normal;
-    padding: 0 0 0 40px;
+  font-size: 3.125rem;
+  font-weight: normal;
+  padding: 0 0 0 2.5rem;
 }
 .section2TextOnly {
-    color: #6bc1a3;
-    padding: 10% 10%;
-    font-family: santio;
-    font-size: 35px;
-    line-height: 60px;
-    width: 80%;
+  color: #6bc1a3;
+  padding: 10% 10%;
+  font-family: santio;
+  font-size: 2.1875rem;
+  line-height: 3.75rem;
+  width: 80%;
 }
 .WhiteBlack {
-    color: #fff;
-    background-color: #000;
-    font-size: 35px;
-    padding: 0;
+  color: #fff;
+  background-color: #000;
+  font-size: 2.1875rem;
+  padding: 0;
 }
 .SectionNo3 {
-    color: #e7bc0e;
+  color: #e7bc0e;
 }
 .SectionNo4 {
-    color: #cb91b6;
+  color: #cb91b6;
 }
 .SectionNo5 {
-    color: #6bc1a3;
+  color: #6bc1a3;
 }
 .SectionNo6 {
-    color: #7eb8e1;
-    padding: 0 5% 10% 20%;
-    line-height: 60px;
+  color: #7eb8e1;
+  padding: 0 5% 10% 20%;
+  line-height: 3.75rem;
 }
 .SitePics {
-    width: 10vw;
-    margin-bottom:10vh;
+  width: 10vw;
+  margin-bottom: 10vh;
 }
 h2 {
-    font-size: 150px;
+  font-size: 9.375rem;
 }
 main section article p {
-    font-size: 35px; 
+  font-size: 2.1875rem;
 }
 .SectionKids {
-    background: url(../img/see.png) center/cover no-repeat;
+  background: url(../img/see.png) center/cover no-repeat;
 }
 .SectionKids img {
-    width: 100%;
+  width: 100%;
 }
 /* 
 ###############################################
@@ -157,48 +158,49 @@ main section article p {
 ###############################################
 */
 footer {
-    background-color: #000;
-    color: #fff;
+  background-color: #000;
+  color: #fff;
 }
 footer article {
-    padding: 20% 10%;
+  padding: 20% 10%;
 }
 .lastText {
-    font-size: 90px;
-    font-family: santio;
-    width: 60%;
+  font-size: 5.625rem;
+  font-family: santio;
+  width: 60%;
 }
 .firstFoot a {
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
-    color: #fff; 
-    font-size: 25px;
-    letter-spacing: normal;
-    padding:1% 2%;
-    border: 1px solid #fff;
-    margin-top: 5vh;
-    display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: #fff;
+  font-size: 1.5625rem;
+  letter-spacing: normal;
+  padding: 1% 2%;
+  border: 1px solid #fff;
+  margin-top: 5vh;
+  display: inline-block;
 }
 .firstFoot a:hover {
-    box-shadow: 5px 5px 1px #fff;
+  box-shadow: 5px 5px 1px #fff;
 }
 .lastFoot {
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    color: #fff;
-    text-align: center;
-    padding: 5vh 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9375rem;
+  color: #fff;
+  text-align: center;
+  padding: 5vh 0;
 }
-.lastFoot p, .lastFoot a {
-    display: inline-block;
+.lastFoot p,
+.lastFoot a {
+  display: inline-block;
 }
 .lastFoot a {
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: normal;
-    border: none;
-    font-size: 15px;
-    color: #6bc1a3;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: normal;
+  border: none;
+  font-size: 0.9375rem;
+  color: #6bc1a3;
 }
 .lastFoot a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
